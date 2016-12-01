@@ -2,7 +2,7 @@
 h1 {
     color: #3c78d8;
     margin-top: 10px;
-    font-size: 4em;
+    font-size: 3.5em;
 }
 
 img {
@@ -29,12 +29,13 @@ h4 {
     color: #3c78d8;
     font-size: 1.5em;
     margin-bottom: 0;
+    margin-top: 0.8em;
 }
 
 h5 {
     color: #3c78d8;
     font-size: 1.2em;
-    margin-top: 0.4em;
+    margin-top: 0.6em;
     margin-bottom: 0;
 }
 
@@ -45,11 +46,19 @@ h5 {
 
 .new {
     margin-top: 15px;
-    color: #1ec29a;
+    margin-bottom: 15px;
     font-weight: bold;
     border-style: solid;
-    border-color: 1ec29a;
+    border-color: #1ec29a;
     padding: 0.8em;
+}
+
+#text h3 {
+    color: #3c78d8;
+    margin-top: 0.4em;
+    margin-bottom: 0.7em;
+    font-size: 2.5em;
+    
 }
 
 .titrenew {
@@ -89,8 +98,13 @@ h5 {
 
 .inline {
     display: inline;
-    margin-left: 2px;
+    margin-left: 4px;
     margin-right: 2px;
+}
+
+#text h3 .inline {
+    float: left;
+    margin-right: 5px;
 }
 
 #general {
