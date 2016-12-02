@@ -62,7 +62,7 @@ h5 {
 }
 
 .new {
-    margin-top: 15px;
+    margin-top: 25px;
     margin-bottom: 15px;
     font-weight: bold;
     border-style: solid;
@@ -71,13 +71,14 @@ h5 {
 }
 
 .titre-new p {
-    width: 80px;
+    width: 5em;
     margin-top: -29px;
     padding-left: 4px;
     padding-right: 3px;
     border-style: solid;
     border-color: #1ec29a;
     background: white;
+    text-align: center;
 }
 
 .contenu-new h3 {
@@ -120,13 +121,13 @@ h5 {
 }
 
 .titre-note p {
-    width: 42px;
+    width: 3em;
     margin-top: -23px;
-    padding-left: 8px;
     margin-bottom: 0;
     border-style: solid;
     border-color: black;
     background: white;
+    text-align: center;
 }
 
 .contenu-note p {
