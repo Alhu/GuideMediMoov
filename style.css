@@ -62,12 +62,38 @@ h5 {
 }
 
 .new {
-    margin-top: 25px;
+    margin-top: 15px;
     margin-bottom: 15px;
     font-weight: bold;
     border-style: solid;
     border-color: #1ec29a;
     padding: 0.8em;
+}
+
+.titre-new p {
+    width: 80px;
+    margin-top: -29px;
+    padding-left: 4px;
+    padding-right: 3px;
+    border-style: solid;
+    border-color: #1ec29a;
+    background: white;
+}
+
+.contenu-new h3 {
+    margin-top: -15px;
+}
+
+.contenu-new p {
+    margin: -10px 0px 0px 0px;
+}
+
+.contenu-new h4{
+    margin-bottom: 10px;
+}
+
+.contenu-new img {
+    margin-top: 10px;
 }
 
 #text h3 {
@@ -77,15 +103,6 @@ h5 {
     font-size: 2.5em;
 }
 
-.titrenew {
-    width: 80px;
-    margin-top: -29px;
-    padding-left: 4px;
-    padding-right: 3px;
-    border-style: solid;
-    border-color: #1ec29a;
-    background: white;
-}
 
 .center {
     text-align: center;
@@ -96,15 +113,28 @@ h5 {
     color: cornflowerblue;
 }
 
-.boxed {
-    text-align: center;
-    display: block;
-    box-sizing: content-box;
-    border-width: 2px;
+.note {
+    padding: 5px;
     border-style: solid;
     border-color: black;
+}
+
+.titre-note p {
+    width: 42px;
+    margin-top: -23px;
+    padding-left: 8px;
+    margin-bottom: 0;
+    border-style: solid;
+    border-color: black;
+    background: white;
+}
+
+.contenu-note p {
+    padding: 0;
+    margin: 0;
+    margin-left: 15px;
     font-style: italic;
-    margin-bottom: 5px;
+    font-weight: bold;
 }
 
 .centered {
