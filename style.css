@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 h1 {
     color: #3c78d8;
     margin-top: 10px;
@@ -12,7 +17,6 @@ img {
 
 h2 {
     color: #3c78d8;
-    margin-top: 6px;
     font-size: 2.5em;
     margin-bottom: 0.4em;
 }
@@ -28,7 +32,7 @@ h4 {
     color: #3c78d8;
     font-size: 1.5em;
     margin-bottom: 0;
-    margin-top: 0.8em;
+    margin-top: 0.4em;
 }
 
 h5 {
@@ -50,11 +54,12 @@ h5 {
     background-color: aliceblue;
 }
 
-.nav h2{
+.nav h2 {
     font-size: 2em;
     color: black;
     margin-left: 5px;
 }
+
 .nav h3 {
     font-size: 1.5em;
     margin-bottom: 0.4em;
@@ -66,7 +71,10 @@ h5 {
     margin-bottom: 15px;
     font-weight: bold;
     border-style: solid;
-    border-color: #1ec29a;
+    border-color: black;
+    background-color: #1ec29a;
+    display: inline-block;
+    max-width: 70em;
     padding: 0.8em;
 }
 
@@ -76,34 +84,48 @@ h5 {
     padding-left: 4px;
     padding-right: 3px;
     border-style: solid;
-    border-color: #1ec29a;
-    background: white;
+    background-color: #1ec29a;
+    border-color: black;
     text-align: center;
 }
 
 .contenu-new h3 {
     margin-top: -15px;
+    color: darkblue !important;
+    line-height: 80px;
+}
+
+.contenu-new h2 {
+    margin-top: -10px;
+    color: darkblue !important;
+    line-height: 80px;
 }
 
 .contenu-new p {
     margin: -10px 0px 0px 0px;
 }
 
-.contenu-new h4{
+.contenu-new h4 {
     margin-bottom: 10px;
+    color: darkblue !important;
 }
 
-.contenu-new img {
-    margin-top: 10px;
+.contenu-new img:not(.inline) {
+    display: inline;
+    line-height: 65px;
 }
 
-#text h3 {
+.content h3 {
     color: #3c78d8;
-    margin-top: 0.4em;
-    margin-bottom: 0.7em;
+    margin-top: 0.3em;
     font-size: 2.5em;
+    line-height: 65px;
 }
 
+.content {
+    margin-top: 35px;
+    border-top-style: solid;
+}
 
 .center {
     text-align: center;
@@ -118,6 +140,8 @@ h5 {
     padding: 5px;
     border-style: solid;
     border-color: black;
+    display: inline-block;
+    margin-bottom: 10px;
 }
 
 .titre-note p {
@@ -128,14 +152,14 @@ h5 {
     border-color: black;
     background: white;
     text-align: center;
+    font-weight: bold;
 }
 
 .contenu-note p {
     padding: 0;
     margin: 0;
-    margin-left: 15px;
+    text-align: center;
     font-style: italic;
-    font-weight: bold;
 }
 
 .centered {
@@ -149,8 +173,9 @@ h5 {
     margin-right: 2px;
 }
 
-#text h3 .inline {
+h3 img {
     float: left;
+    line-height: 65px;
     margin-right: 5px;
 }
 
@@ -158,19 +183,35 @@ h5 {
     padding: 10em;
 }
 
-body {
-    margin: 0 auto;
-}
-
-
 #text {
     width: calc(100% - 25em);
     max-width: 1400px;
     margin-left: 25em;
+    padding-bottom: 35px;
+}
+
+#text h2 {
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+body {
+    margin: 0 auto;
 }
 
 p {
     font-size: 1.1em;
     color: #1d4b95;
     margin-top: 0.2em;
+}
+
+.explicationContenu li {
+    font-size: 1.1em;
+    color: #1d4b95;
+    margin-bottom: -2px;
+    margin-top: -2px;
+}
+
+.explicationContenu ul {
+    margin-bottom: 0;
 }
